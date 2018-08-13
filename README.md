@@ -9,3 +9,4 @@ Another reason I build this project is for practicing React/Redux/Typescript/Web
 To-Do
 
 - [ ] Style
+- [ ] Release to Production
