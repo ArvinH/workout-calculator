@@ -51,20 +51,10 @@ function Layout(props: IProps) {
       <AppBar position="absolute" className={classes.appBar}>
         <Toolbar>
           <Typography variant="title" color="inherit" noWrap={true}>
-            Fantasy Workout
+            Workout Calculator
           </Typography>
         </Toolbar>
       </AppBar>
-      <Drawer
-        variant="permanent"
-        classes={{
-          paper: classes.drawerPaper
-        }}
-      >
-        <div className={classes.toolbar} />
-        <List>{mailFolderListItems}</List>
-        <Divider />
-      </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
         <BMR />
