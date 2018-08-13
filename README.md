@@ -1,12 +1,6 @@
-# Fantasy workout
+# Workout Calculator
 
+A webapp can calcuate your BMR, TDEE and how many carb, protein or fat you should have in each meal each day.
 
-![logo](./fantasy-workout.png)
+Another reason I build this project is for practicing React/Redux/Typescript/Webpack.
 
-A webapp can calcuate your BMR and TDEE, also record your daily routine of workout status.
-
-Another reason I build this project is for practicing React/Redux/SSR/Typescript/Webpack/React-Router.
-
-TO-DO
-
-- [ ] SSR
