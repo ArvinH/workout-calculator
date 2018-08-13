@@ -1,0 +1,25 @@
+{
+	"extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+	"rules": {
+		"allowSyntheticDefaultImports": false,
+		"ordered-imports": false,
+		"object-literal-sort-keys": false,
+		"no-submodule-imports": [true, "history", "@material-ui"],
+		"no-implicit-dependencies": [true, "dev"],
+		"no-arg": true,
+		"no-bitwise": true,
+		"no-conditional-assignment": true,
+		"no-consecutive-blank-lines": false,
+		"no-console": {
+			"severity": "warning",
+			"options": [
+				"debug",
+				"info",
+				"log",
+				"time",
+				"timeEnd",
+				"trace"
+			]
+		}
+	}
+}

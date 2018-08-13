@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="ButtonAppBar-root-1"
+  >
+    <header
+      className="MuiPaper-root-13 MuiPaper-elevation4-19 MuiAppBar-root-5 MuiAppBar-positionStatic-9 MuiAppBar-colorPrimary-11"
+    >
+      <div
+        className="MuiToolbar-root-40 MuiToolbar-gutters-41"
+      >
+        <button
+          aria-label="Menu"
+          className="MuiButtonBase-root-48 MuiIconButton-root-42 MuiIconButton-colorInherit-43 ButtonAppBar-menuButton-4"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label-47"
+          >
+            <span
+              aria-hidden="true"
+              className="material-icons MuiIcon-root-51 ButtonAppBar-icon-3"
+            />
+          </span>
+          <span
+            className="MuiTouchRipple-root-58"
+          />
+        </button>
+        <h2
+          className="MuiTypography-root-65 MuiTypography-title-71 MuiTypography-colorInherit-84 ButtonAppBar-flex-2"
+        >
+          Title
+        </h2>
+        <button
+          className="MuiButtonBase-root-48 MuiButton-root-89 MuiButton-text-91 MuiButton-flat-94 MuiButton-colorInherit-108"
+          disabled={false}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-90"
+          >
+            Login
+          </span>
+          <span
+            className="MuiTouchRipple-root-58"
+          />
+        </button>
+      </div>
+    </header>
+  </div>,
+  <h3>
+    
+  </h3>,
+  <div>
+    <button>
+      -
+    </button>
+    <button>
+      +
+    </button>
+  </div>,
+]
+`;
