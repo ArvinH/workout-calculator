@@ -1,3 +1,6 @@
+/*
+  We don't need this server.js in this project, it copied from the original fantasy-workout project
+*/
 const path = require('path')
 const express = require('express')
 const webpack = require('webpack')

@@ -13,11 +13,17 @@ if (module.hot) {
   module.hot.accept();
 }
 */
-
+const baseURL = process.env.NODE_ENV === "development" ? '/' : '/workout-calculator/';
 const App = () => (
   <Switch>
-    <Route exact={true} path="/" children={<MainEntry />} />
-    <Route exact={true} path="/home" children={<MainEntry />} />
+    <Route exact={true} path={baseURL} children={<MainEntry />} />
+    {/*
+      Route to home is not working in here
+      [Note]: if we want to support client-side route in gh-pages, need to hack 404
+      https://github.com/rafrex/spa-github-pages/blob/gh-pages/404.html
+      see details: https://github.com/rafrex/spa-github-pages
+    */}
+    <Route exact={true} path={`${baseURL}home`} children={<MainEntry />} />
   </Switch>
 );
 
